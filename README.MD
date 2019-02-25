@@ -1,3 +1,7 @@
+![](https://main.qcloudimg.com/raw/fe3bef880cbf1d47036a948eff96ccc4.png)
+
+
+
 轻量明快，设计简洁，遵循 MIT 的 PHP+MySql 二次开源CMS系统
 
 
@@ -16,6 +20,7 @@
 
 一、基本目录结构
 
+```
 ..../              根目录
 ..../application   全站应用目录
 ..../cache         缓存目录[必须可写入]
@@ -25,6 +30,9 @@
 ..../index.php     程序单一入口文件
 ..../.htaccess     Apache伪静态文件[如您不是Apache软件，可根据此规则重写伪静态]
 ..../nginx.conf    Nginx下伪静态文件
+```
+
+
 
 
 application目录下每一个文件夹都是一个单独的模块（module）
@@ -33,6 +41,7 @@ application目录下每一个文件夹都是一个单独的模块（module）
 
 以admin模块举例：
 
+```
 application
 
 ---admin
@@ -40,6 +49,7 @@ application
 ------controller（模块控制器目录）
 ------model（模块模型目录）
 ------view（模块视图目录）
+```
 
 
 
