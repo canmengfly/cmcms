@@ -1,0 +1,6 @@
+#
+# robots.txt for cmCMS v5.2
+#
+User-agent: * 
+Disallow: /cache
+Disallow: /cmphp
