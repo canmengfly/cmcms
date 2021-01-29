@@ -214,4 +214,4 @@ limit ------限制条数，例如: limit="10" 默认值为20,此属性可选
 		<span class="comment_comment">{if $v['userid']}{$v[username]}{else}网友评论{/if}：{$v[content]}</span>
 	</li>
 {/loop} 
-</ul
+</ul>
